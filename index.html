@@ -8,8 +8,8 @@
 
   <!-- <link href="./dist/output.css" rel="stylesheet"> -->
 </head>
-<body class="h-[150vh]">
-    <div class=" mx-3 md:mx-40">
+<body class="h-[1500vh] bg-[#f2f7f8]">
+    <div class=" md:mx-40">
         <nav class="bg-white h-[80px] w-full flex items-center justify-between p-2 md:p-5 fixed top-0 right-0 left-0 z-5">
             <div class="flex">
                 <img src="./Assets/logo.svg" alt="logo">
@@ -42,7 +42,7 @@
             </div>
         </nav>
 
-        <div class="flex justify-center flex-col md:flex-row mt-105">
+        <div class="flex justify-center flex-col md:flex-row mt-105 mx-5">
             <!-- <div class="flex justify-center w-[50%]"> -->
                 <div class="flex flex-col w-full">
                     <button class="bg-blue-400 flex w-fit items-center gap-3 rounded-[30px] px-4 py-1 my-5 justify-center ml-5">
@@ -88,16 +88,124 @@
             </div>
         </div>
 
-        <section class="mt-20">
+        <section class="mt-20 flex justify-center mx-5">
             <div>
-                <img src="./Assets/securitylock.svg" alt="">
+                <div  class="flex justify-center mb-10">
+                    <img src="./Assets/securitylock.svg" alt="" class="text-center">
+                </div>
+                <div class="w-[30ch]">
+                    <p class="text-[1.8rem] text-center font-medium leading-none mb-5">Your Security is our priority</p>
+                    <p class="text-center leading-none text-gray-500 text-[16px] ">PiggyVest uses the highest level of Internet Security and it is secured by 256 bits SSL security encryption to ensure that your information is completely protected from fraud.</p>
+                </div>
+                <div class="flex mt-3 gap-2">
+                    <svg 
+                    width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M15 10L20 15L15 20" stroke="#122231" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path><path d="M4 4V11C4 12.0609 4.42143 13.0783 5.17157 13.8284C5.92172 14.5786 6.93913 15 8 15H20" stroke="#122231" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                    </svg>
+                    <p class="mt-1">More on security measures</p>
+                </div>
             </div>
-            <div>
-                <p>Your Security is our priority</p>
+        </section>
+
+        <section class="mt-20 mx-5">
+            <div class="text-center">
+                <p class="text-[1.8rem] text-center font-bold">Many Ways to build your savings</p>
+                <p class="text-[18px] text-gray-800 mt-5">Earn 12%-20% when you save with any of these PiggyVest plans</p>
             </div>
-            <svg 
-                width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M15 10L20 15L15 20" stroke="#122231" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path><path d="M4 4V11C4 12.0609 4.42143 13.0783 5.17157 13.8284C5.92172 14.5786 6.93913 15 8 15H20" stroke="#122231" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-            </svg>
+
+            <div class="flex flex-col gap-10 mt-10">
+                <div class="bg-white h-fit w-full rounded-2xl px-7 pt-15 pb-10 text-center">
+                    <p class="text-blue-900 text-[2rem] font-bold ">Automatic Savings</p>
+                    <p class="text-gray-700 mt-5">Build a dedicated savings faster on your terms,automatically or manually.</p>
+                
+                    <div class="flex  mt-[80%] gap-2">
+                        <svg 
+                        width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M15 10L20 15L15 20" stroke="#003399" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path><path d="M4 4V11C4 12.0609 4.42143 13.0783 5.17157 13.8284C5.92172 14.5786 6.93913 15 8 15H20" stroke="#122231" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                        </svg>
+                        <p class="text-blue-900 font-medium">Piggybank</p>
+                    </div>
+                </div>
+
+                <div class="bg-white h-fit w-full rounded-2xl px-7 pt-15 pb-10 text-center">
+                    <p class="text-blue-400 text-[2rem] font-bold ">Fixed Savings</p>
+                    <p class="text-gray-700 mt-5 text-center">Lock money for a fixed duration without having access to it until maturity. It's like having a custom fixed deposit.</p>
+                
+                    <div class="flex  mt-[80%] gap-2">
+                        <svg 
+                        width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M15 10L20 15L15 20" stroke="#003399" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path><path d="M4 4V11C4 12.0609 4.42143 13.0783 5.17157 13.8284C5.92172 14.5786 6.93913 15 8 15H20" stroke="#122231" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                        </svg>
+                        <p class="text-blue-400 font-medium">Safelock</p>
+                    </div>
+                </div>
+
+                <div class="bg-white h-fit w-full rounded-2xl px-7 pt-15 pb-10 text-center">
+                    <p class="text-[#069b40] text-[2rem] font-bold ">Goal-oriented Savings</p>
+                    <p class="text-gray-700 mt-5 text-center">Reach all your savings goals faster. Save towards multiple goals on your own or with a group</p>
+                
+                    <div class="flex  mt-[80%] gap-2">
+                        <svg 
+                        width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M15 10L20 15L15 20" stroke="#003399" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path><path d="M4 4V11C4 12.0609 4.42143 13.0783 5.17157 13.8284C5.92172 14.5786 6.93913 15 8 15H20" stroke="#122231" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                        </svg>
+                        <p class="text-[#069b40] font-medium">Target Savings</p>
+                    </div>
+                </div>
+
+                <div class="bg-white h-fit w-full rounded-2xl px-9 pt-15 pb-10 text-center">
+                    <p class="text-[#e5288e] text-[2rem] font-bold ">Flex Naira</p>
+                    <p class="text-gray-700 mt-5 text-center">Save,transfer,manage,organise,and withdraw your money at any time.</p>
+                
+                    <div class="flex  mt-[80%] gap-2">
+                        <svg 
+                        width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M15 10L20 15L15 20" stroke="#003399" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path><path d="M4 4V11C4 12.0609 4.42143 13.0783 5.17157 13.8284C5.92172 14.5786 6.93913 15 8 15H20" stroke="#122231" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                        </svg>
+                        <p class="text-[#e5288e] font-medium">Flex Naira</p>
+                    </div>
+                </div>
+
+                <div class="bg-white h-fit w-full rounded-2xl px-9 pt-15 pb-10 text-center">
+                    <p class="text-black text-[2rem] font-bold ">Flex Dollar</p>
+                    <p class="text-gray-700 mt-5 text-center">Save and grow your money in foreign currencies such as dollars.</p>
+                
+                    <div class="flex mt-[80%] gap-2">
+                        <svg 
+                        width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M15 10L20 15L15 20" stroke="#003399" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path><path d="M4 4V11C4 12.0609 4.42143 13.0783 5.17157 13.8284C5.92172 14.5786 6.93913 15 8 15H20" stroke="#122231" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                        </svg>
+                        <p class="text-black font-medium">Flex Dollar</p>
+                    </div>
+                </div>
+
+                <div class="bg-white h-fit w-full rounded-2xl px-9 pt-15 pb-10 text-center">
+                    <p class="text-[#ff7848] text-[2rem] font-bold ">HouseMoney</p>
+                    <p class="text-gray-700 mt-5 text-center">Save and grow your money in foreign currencies such as dollars.</p>
+                
+                    <div class="flex mt-[80%] gap-2">
+                        <svg 
+                        width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M15 10L20 15L15 20" stroke="#003399" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path><path d="M4 4V11C4 12.0609 4.42143 13.0783 5.17157 13.8284C5.92172 14.5786 6.93913 15 8 15H20" stroke="#122231" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                        </svg>
+                        <p class="text-[#ff7848] font-medium">HouseMoney</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="bg-white mt-15 pt-15 pb-30 p-5 w-full text-center">
+            <p class="text-[2rem] font-medium">Diverse ways to Invest</p>
+            <p class="text-gray-700 text-[18px]">Grow your money and invest for your future confidently.</p>
+
+            <div class="bg-[#7813e3] pt-15 mt-15 px-5 rounded-3xl text-white text-center">
+                <p class="text-[2rem] font-medium mb-5">Earn Up to 35% returns</p>
+                <p class="text-[18px] text-[#fac1ef]">Invest securely and confidently on the go. Grow your money confidently by investing in pre-vetted investment opportunities.</p>
+                <div class="flex gap-2 my-7">
+                    <svg 
+                    width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M15 10L20 15L15 20" stroke="#122231" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path><path d="M4 4V11C4 12.0609 4.42143 13.0783 5.17157 13.8284C5.92172 14.5786 6.93913 15 8 15H20" stroke="#122231" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                    </svg>
+                    <p class="font-medium">Learn about investments</p>
+                </div>
+                <img src="./Assets/iphoneInvest.avif" alt="">
+            </div>
+        </section>
+
+        <section>
+            
         </section>
     </div>
     
